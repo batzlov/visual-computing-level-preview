@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.select {
+    margin-top: 15px;
+    margin-left: 50px;
+}
+
+#app {
+    min-width: 100vw;
+    height: 100vh;
+    overflow-y: hidden;
+}
+
+#app-canvas {
+    margin-top: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    width: 1600px;
+    height: 600px;
+    background: url(/assets/backgrounds/beach.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.block-preview {
+    margin-top: 25px;
+    margin-left: 45px;
+}
+
+.block-preview-img {
+    width: 100px;
+    height: 100px;
+    margin: 10px 5px;
+}
