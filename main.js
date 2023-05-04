@@ -162,7 +162,9 @@ class LevelGenerator {
 
                     entities.push({
                         _attributes: attributes,
-                        data: {},
+                        data: {
+                            position: `${x * 50};${y * 50}`,
+                        },
                         logic: {},
                     });
                 }
