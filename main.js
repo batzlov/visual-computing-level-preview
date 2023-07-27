@@ -45,33 +45,43 @@ class LevelGenerator {
         this.blocks = [
             {
                 id: 1,
-                name: "Brick",
-                src: "/assets/blocks/block-brick.png",
+                name: "Ground-Earth",
+                src: "/assets/blocks/ground-earth.png",
             },
             {
                 id: 2,
-                name: "Clay",
-                src: "/assets/blocks/block-clay.png",
+                name: "Ground",
+                src: "/assets/blocks/ground.png",
             },
             {
                 id: 3,
-                name: "Paper",
-                src: "/assets/blocks/block-paper.png",
+                name: "Plattform-1",
+                src: "/assets/blocks/plattform-1.png",
             },
             {
                 id: 4,
-                name: "Abstract 1",
-                src: "/assets/blocks/block-abstract-1.png",
+                name: "Plattform-2",
+                src: "/assets/blocks/plattform-2.png",
             },
             {
                 id: 5,
-                name: "Abstract 2",
-                src: "/assets/blocks/block-abstract-2.png",
+                name: "Plattform-3",
+                src: "/assets/blocks/plattform-3.png",
             },
             {
                 id: 6,
-                name: "Abstract 3",
-                src: "/assets/blocks/block-abstract-3.png",
+                name: "Player",
+                src: "/assets/blocks/player.png",
+            },
+            {
+                id: 7,
+                name: "Finish",
+                src: "/assets/blocks/finish.png",
+            },
+            {
+                id: 8,
+                name: "Crate",
+                src: "/assets/blocks/crate.png",
             },
         ];
     }
@@ -133,28 +143,36 @@ class LevelGenerator {
                     let attributes = {};
                     switch (this.matrix[y][x]) {
                         case 1:
-                            attributes["name"] = `brick_${x}_${y}`;
-                            attributes["meta-entity"] = `block_brick`;
+                            attributes["name"] = `ground_earth_${x}_${y}`;
+                            attributes["meta-entity"] = `ground_earth`;
                             break;
                         case 2:
-                            attributes["name"] = `clay_${x}_${y}`;
-                            attributes["meta-entity"] = `block_clay`;
+                            attributes["name"] = `ground_${x}_${y}`;
+                            attributes["meta-entity"] = `ground`;
                             break;
                         case 3:
-                            attributes["name"] = `paper_${x}_${y}`;
-                            attributes["meta-entity"] = `block_paper`;
+                            attributes["name"] = `plattform_1_${x}_${y}`;
+                            attributes["meta-entity"] = `plattform_1`;
                             break;
                         case 4:
-                            attributes["name"] = `abstract_1_${x}_${y}`;
-                            attributes["meta-entity"] = `block_abstract_1`;
+                            attributes["name"] = `plattform_2_${x}_${y}`;
+                            attributes["meta-entity"] = `plattform_2`;
                             break;
                         case 5:
-                            attributes["name"] = `abstract_2_${x}_${y}`;
-                            attributes["meta-entity"] = `block_abstract_2`;
+                            attributes["name"] = `plattform_3_${x}_${y}`;
+                            attributes["meta-entity"] = `plattform_3`;
                             break;
                         case 6:
-                            attributes["name"] = `abstract_3_${x}_${y}`;
-                            attributes["meta-entity"] = `block_abstract_3`;
+                            attributes["name"] = `player_${x}_${y}`;
+                            attributes["meta-entity"] = `player`;
+                            break;
+                        case 7:
+                            attributes["name"] = `finish_${x}_${y}`;
+                            attributes["meta-entity"] = `finish`;
+                            break;
+                        case 8:
+                            attributes["name"] = `crate_${x}_${y}`;
+                            attributes["meta-entity"] = `crate`;
                             break;
                         default:
                             break;
@@ -164,6 +182,7 @@ class LevelGenerator {
                         _attributes: attributes,
                         data: {
                             position: `${x * 50};${y * 50}`,
+                            size: `50;50`,
                         },
                         logic: {},
                     });
