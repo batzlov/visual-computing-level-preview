@@ -137,6 +137,20 @@ class LevelGenerator {
     toXML() {
         const entities = [];
 
+        const convertToXMLType = (typeId) => {
+            if (typeId === 1 || typeId === 2) {
+                return 1;
+            } else if (typeId === 3 || typeId === 4 || typeId === 5) {
+                return 2;
+            } else if (typeId === 6) {
+                return 0;
+            } else if (typeId === 7) {
+                return 4;
+            } else if (typeId === 8) {
+                return 3;
+            }
+        };
+
         for (let y = 0; y < this.matrix.length; y++) {
             for (let x = 0; x < this.matrix[y].length; x++) {
                 if (this.matrix[y][x] !== 0) {
@@ -183,6 +197,7 @@ class LevelGenerator {
                         data: {
                             position: `${x * 50};${y * 50}`,
                             size: `50;50`,
+                            type: convertToXMLType(this.matrix[y][x]),
                         },
                         logic: {},
                     });
