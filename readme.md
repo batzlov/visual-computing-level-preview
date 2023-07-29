@@ -2,7 +2,7 @@
 
 ## Allgemein
 
-Dieses Tool wurde erstellt um eine einfache Möglichkeit zu haben, Maps für das Spiel "Run Game" für das Modul Visual Computing erstellen und anzeigen zu können.
+Dieses Tool wurde erstellt, um eine einfache Möglichkeit zu haben, Maps für das Spiel "Run Game" für das Modul Visual Computing, erstellen und anzeigen zu können.
 Voraussetzung um das Programm starten zu können ist eine installierte und lauffähige Version von Node.js.
 
 ### Installation
