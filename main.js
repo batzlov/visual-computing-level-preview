@@ -15,12 +15,16 @@ class App {
 
         document.querySelector("#app").innerHTML = `
             <div class="block-preview flex">
-                <img class="block block-preview-img" src="/assets/blocks/block-brick.png">
-                <img class="block block-preview-img" src="/assets/blocks/block-clay.png">
-                <img class="block block-preview-img" src="/assets/blocks/block-paper.png">
-                <img class="block block-preview-img" src="/assets/blocks/block-abstract-1.png">
-                <img class="block block-preview-img" src="/assets/blocks/block-abstract-2.png">
-                <img class="block block-preview-img" src="/assets/blocks/block-abstract-3.png">
+                <img class="block block-preview-img" src="/assets/blocks/player.png">
+                <img class="block block-preview-img" src="/assets/blocks/crate.png">
+                <img class="block block-preview-img" src="/assets/blocks/shroom-magic.png">
+                <img class="block block-preview-img" src="/assets/blocks/shroom-toxic.png">
+                <img class="block block-preview-img" src="/assets/blocks/finish.png">
+                <img class="block block-preview-img" src="/assets/blocks/ground-earth.png">
+                <img class="block block-preview-img" src="/assets/blocks/plattform-1.png">
+                <img class="block block-preview-img" src="/assets/blocks/plattform-2.png">
+                <img class="block block-preview-img" src="/assets/blocks/plattform-3.png">
+                <img class="block block-preview-img" src="/assets/blocks/ground.png">
             </div>
             <div class="flex">
                 <select class="select select-bordered w-full max-w-xs">
@@ -82,6 +86,16 @@ class LevelGenerator {
                 id: 8,
                 name: "Crate",
                 src: "/assets/blocks/crate.png",
+            },
+            {
+                id: 9,
+                name: "Shroom-Magic",
+                src: "/assets/blocks/shroom-magic.png",
+            },
+            {
+                id: 10,
+                name: "Shroom-Toxic",
+                src: "/assets/blocks/shroom-toxic.png",
             },
         ];
     }
@@ -148,6 +162,10 @@ class LevelGenerator {
                 return 4;
             } else if (typeId === 8) {
                 return 3;
+            } else if (typeId === 9) {
+                return 5;
+            } else if (typeId === 10) {
+                return 6;
             }
         };
 
@@ -187,6 +205,14 @@ class LevelGenerator {
                         case 8:
                             attributes["name"] = `crate_${x}_${y}`;
                             attributes["meta-entity"] = `crate`;
+                            break;
+                        case 9:
+                            attributes["name"] = `shroom_magic_${x}_${y}`;
+                            attributes["meta-entity"] = `shroom_magic`;
+                            break;
+                        case 10:
+                            attributes["name"] = `shroom_toxic_${x}_${y}`;
+                            attributes["meta-entity"] = `shroom_toxic`;
                             break;
                         default:
                             break;

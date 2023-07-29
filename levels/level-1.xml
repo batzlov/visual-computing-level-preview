@@ -1,9 +1,9 @@
 <entities>
-    <entity name="crate_14_4" meta-entity="crate">
+    <entity name="shroom_magic_14_4" meta-entity="shroom_magic">
         <data>
             <position>700;200</position>
             <size>50;50</size>
-            <type>3</type>
+            <type>5</type>
         </data>
         <logic/>
     </entity>
@@ -132,6 +132,14 @@
             <position>700;450</position>
             <size>50;50</size>
             <type>3</type>
+        </data>
+        <logic/>
+    </entity>
+    <entity name="shroom_toxic_24_9" meta-entity="shroom_toxic">
+        <data>
+            <position>1200;450</position>
+            <size>50;50</size>
+            <type>6</type>
         </data>
         <logic/>
     </entity>
