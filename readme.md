@@ -1,9 +1,14 @@
 # Visual Computing Level Preview
 
+Visual Computing Level Preview, ein Projekt von Robert Ackermann. Made with ♥ and ☕ in Erfurt.
+
 ## Allgemein
 
 Dieses Tool wurde erstellt, um eine einfache Möglichkeit zu haben, Maps für das Spiel "Run Game" für das Modul Visual Computing, erstellen und anzeigen zu können.
 Voraussetzung um das Programm starten zu können ist eine installierte und lauffähige Version von Node.js.
+
+### Quelle der Assets
+Die Assets stammen von der Plattform [GAME ART 2D](https://www.gameart2d.com/). 
 
 ### Installation
 
