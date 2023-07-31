@@ -149,7 +149,11 @@ class LevelGenerator {
     }
 
     toXML() {
-        const entities = [];
+        const map = {
+            height: this.matrix.length * 50,
+            width: this.matrix[0].length * 50,
+            entities: [],
+        };
 
         const convertToXMLType = (typeId) => {
             if (typeId === 1 || typeId === 2) {
@@ -218,7 +222,7 @@ class LevelGenerator {
                             break;
                     }
 
-                    entities.push({
+                    map.entities.push({
                         _attributes: attributes,
                         data: {
                             position: `${x * 50};${y * 50}`,
@@ -232,11 +236,7 @@ class LevelGenerator {
         }
 
         const xmlString = js2xml(
-            {
-                entities: {
-                    entity: entities,
-                },
-            },
+            { map: map },
             {
                 compact: true,
                 ignoreComment: true,
