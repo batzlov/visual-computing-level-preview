@@ -1,668 +1,670 @@
 <map>
     <height>600</height>
     <width>1600</width>
-    <entities name="shroom_magic_14_4" meta-entity="shroom_magic">
-        <data>
-            <position>700;200</position>
-            <size>50;50</size>
-            <type>5</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="crate_14_5" meta-entity="crate">
-        <data>
-            <position>700;250</position>
-            <size>50;50</size>
-            <type>3</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="plattform_1_11_6" meta-entity="plattform_1">
-        <data>
-            <position>550;300</position>
-            <size>50;50</size>
-            <type>2</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="plattform_2_12_6" meta-entity="plattform_2">
-        <data>
-            <position>600;300</position>
-            <size>50;50</size>
-            <type>2</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="plattform_2_13_6" meta-entity="plattform_2">
-        <data>
-            <position>650;300</position>
-            <size>50;50</size>
-            <type>2</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="plattform_2_14_6" meta-entity="plattform_2">
-        <data>
-            <position>700;300</position>
-            <size>50;50</size>
-            <type>2</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="plattform_3_15_6" meta-entity="plattform_3">
-        <data>
-            <position>750;300</position>
-            <size>50;50</size>
-            <type>2</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="plattform_1_20_6" meta-entity="plattform_1">
-        <data>
-            <position>1000;300</position>
-            <size>50;50</size>
-            <type>2</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="plattform_2_21_6" meta-entity="plattform_2">
-        <data>
-            <position>1050;300</position>
-            <size>50;50</size>
-            <type>2</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="plattform_3_22_6" meta-entity="plattform_3">
-        <data>
-            <position>1100;300</position>
-            <size>50;50</size>
-            <type>2</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="plattform_1_7_7" meta-entity="plattform_1">
-        <data>
-            <position>350;350</position>
-            <size>50;50</size>
-            <type>2</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="plattform_2_8_7" meta-entity="plattform_2">
-        <data>
-            <position>400;350</position>
-            <size>50;50</size>
-            <type>2</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="plattform_3_9_7" meta-entity="plattform_3">
-        <data>
-            <position>450;350</position>
-            <size>50;50</size>
-            <type>2</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="plattform_1_5_8" meta-entity="plattform_1">
-        <data>
-            <position>250;400</position>
-            <size>50;50</size>
-            <type>2</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="plattform_3_6_8" meta-entity="plattform_3">
-        <data>
-            <position>300;400</position>
-            <size>50;50</size>
-            <type>2</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="player_3_9" meta-entity="player">
-        <data>
-            <position>150;450</position>
-            <size>50;50</size>
-            <type>0</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="crate_14_9" meta-entity="crate">
-        <data>
-            <position>700;450</position>
-            <size>50;50</size>
-            <type>3</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="shroom_toxic_24_9" meta-entity="shroom_toxic">
-        <data>
-            <position>1200;450</position>
-            <size>50;50</size>
-            <type>6</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="finish_30_9" meta-entity="finish">
-        <data>
-            <position>1500;450</position>
-            <size>50;50</size>
-            <type>4</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_0_10" meta-entity="ground">
-        <data>
-            <position>0;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_1_10" meta-entity="ground">
-        <data>
-            <position>50;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_2_10" meta-entity="ground">
-        <data>
-            <position>100;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_3_10" meta-entity="ground">
-        <data>
-            <position>150;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_4_10" meta-entity="ground">
-        <data>
-            <position>200;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_5_10" meta-entity="ground">
-        <data>
-            <position>250;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_6_10" meta-entity="ground">
-        <data>
-            <position>300;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_7_10" meta-entity="ground">
-        <data>
-            <position>350;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_8_10" meta-entity="ground">
-        <data>
-            <position>400;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_9_10" meta-entity="ground">
-        <data>
-            <position>450;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_10_10" meta-entity="ground">
-        <data>
-            <position>500;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_11_10" meta-entity="ground">
-        <data>
-            <position>550;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_12_10" meta-entity="ground">
-        <data>
-            <position>600;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_13_10" meta-entity="ground">
-        <data>
-            <position>650;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_14_10" meta-entity="ground">
-        <data>
-            <position>700;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_15_10" meta-entity="ground">
-        <data>
-            <position>750;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_16_10" meta-entity="ground">
-        <data>
-            <position>800;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_17_10" meta-entity="ground">
-        <data>
-            <position>850;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_18_10" meta-entity="ground">
-        <data>
-            <position>900;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_19_10" meta-entity="ground">
-        <data>
-            <position>950;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_20_10" meta-entity="ground">
-        <data>
-            <position>1000;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_21_10" meta-entity="ground">
-        <data>
-            <position>1050;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_22_10" meta-entity="ground">
-        <data>
-            <position>1100;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_23_10" meta-entity="ground">
-        <data>
-            <position>1150;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_24_10" meta-entity="ground">
-        <data>
-            <position>1200;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_25_10" meta-entity="ground">
-        <data>
-            <position>1250;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_26_10" meta-entity="ground">
-        <data>
-            <position>1300;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_27_10" meta-entity="ground">
-        <data>
-            <position>1350;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_28_10" meta-entity="ground">
-        <data>
-            <position>1400;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_29_10" meta-entity="ground">
-        <data>
-            <position>1450;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_30_10" meta-entity="ground">
-        <data>
-            <position>1500;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_31_10" meta-entity="ground">
-        <data>
-            <position>1550;500</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_0_11" meta-entity="ground_earth">
-        <data>
-            <position>0;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_1_11" meta-entity="ground_earth">
-        <data>
-            <position>50;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_2_11" meta-entity="ground_earth">
-        <data>
-            <position>100;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_3_11" meta-entity="ground_earth">
-        <data>
-            <position>150;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_4_11" meta-entity="ground_earth">
-        <data>
-            <position>200;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_5_11" meta-entity="ground_earth">
-        <data>
-            <position>250;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_6_11" meta-entity="ground_earth">
-        <data>
-            <position>300;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_7_11" meta-entity="ground_earth">
-        <data>
-            <position>350;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_8_11" meta-entity="ground_earth">
-        <data>
-            <position>400;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_9_11" meta-entity="ground_earth">
-        <data>
-            <position>450;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_10_11" meta-entity="ground_earth">
-        <data>
-            <position>500;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_11_11" meta-entity="ground_earth">
-        <data>
-            <position>550;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_12_11" meta-entity="ground_earth">
-        <data>
-            <position>600;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_13_11" meta-entity="ground_earth">
-        <data>
-            <position>650;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_14_11" meta-entity="ground_earth">
-        <data>
-            <position>700;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_15_11" meta-entity="ground_earth">
-        <data>
-            <position>750;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_16_11" meta-entity="ground_earth">
-        <data>
-            <position>800;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_17_11" meta-entity="ground_earth">
-        <data>
-            <position>850;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_18_11" meta-entity="ground_earth">
-        <data>
-            <position>900;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_19_11" meta-entity="ground_earth">
-        <data>
-            <position>950;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_20_11" meta-entity="ground_earth">
-        <data>
-            <position>1000;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_21_11" meta-entity="ground_earth">
-        <data>
-            <position>1050;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_22_11" meta-entity="ground_earth">
-        <data>
-            <position>1100;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_23_11" meta-entity="ground_earth">
-        <data>
-            <position>1150;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_24_11" meta-entity="ground_earth">
-        <data>
-            <position>1200;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_25_11" meta-entity="ground_earth">
-        <data>
-            <position>1250;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_26_11" meta-entity="ground_earth">
-        <data>
-            <position>1300;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_27_11" meta-entity="ground_earth">
-        <data>
-            <position>1350;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_28_11" meta-entity="ground_earth">
-        <data>
-            <position>1400;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_29_11" meta-entity="ground_earth">
-        <data>
-            <position>1450;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_30_11" meta-entity="ground_earth">
-        <data>
-            <position>1500;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
-    </entities>
-    <entities name="ground_earth_31_11" meta-entity="ground_earth">
-        <data>
-            <position>1550;550</position>
-            <size>50;50</size>
-            <type>1</type>
-        </data>
-        <logic/>
+    <entities>
+        <entity name="shroom_magic_14_4" meta-entity="shroom_magic">
+            <data>
+                <position>700;200</position>
+                <size>50;50</size>
+                <type>5</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="crate_14_5" meta-entity="crate">
+            <data>
+                <position>700;250</position>
+                <size>50;50</size>
+                <type>3</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="plattform_1_11_6" meta-entity="plattform_1">
+            <data>
+                <position>550;300</position>
+                <size>50;50</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="plattform_2_12_6" meta-entity="plattform_2">
+            <data>
+                <position>600;300</position>
+                <size>50;50</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="plattform_2_13_6" meta-entity="plattform_2">
+            <data>
+                <position>650;300</position>
+                <size>50;50</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="plattform_2_14_6" meta-entity="plattform_2">
+            <data>
+                <position>700;300</position>
+                <size>50;50</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="plattform_3_15_6" meta-entity="plattform_3">
+            <data>
+                <position>750;300</position>
+                <size>50;50</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="plattform_1_20_6" meta-entity="plattform_1">
+            <data>
+                <position>1000;300</position>
+                <size>50;50</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="plattform_2_21_6" meta-entity="plattform_2">
+            <data>
+                <position>1050;300</position>
+                <size>50;50</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="plattform_3_22_6" meta-entity="plattform_3">
+            <data>
+                <position>1100;300</position>
+                <size>50;50</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="plattform_1_7_7" meta-entity="plattform_1">
+            <data>
+                <position>350;350</position>
+                <size>50;50</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="plattform_2_8_7" meta-entity="plattform_2">
+            <data>
+                <position>400;350</position>
+                <size>50;50</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="plattform_3_9_7" meta-entity="plattform_3">
+            <data>
+                <position>450;350</position>
+                <size>50;50</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="plattform_1_5_8" meta-entity="plattform_1">
+            <data>
+                <position>250;400</position>
+                <size>50;50</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="plattform_3_6_8" meta-entity="plattform_3">
+            <data>
+                <position>300;400</position>
+                <size>50;50</size>
+                <type>2</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="player_3_9" meta-entity="player">
+            <data>
+                <position>150;450</position>
+                <size>50;50</size>
+                <type>0</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="crate_14_9" meta-entity="crate">
+            <data>
+                <position>700;450</position>
+                <size>50;50</size>
+                <type>3</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="shroom_toxic_24_9" meta-entity="shroom_toxic">
+            <data>
+                <position>1200;450</position>
+                <size>50;50</size>
+                <type>6</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="finish_30_9" meta-entity="finish">
+            <data>
+                <position>1500;450</position>
+                <size>50;50</size>
+                <type>4</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_0_10" meta-entity="ground">
+            <data>
+                <position>0;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_1_10" meta-entity="ground">
+            <data>
+                <position>50;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_2_10" meta-entity="ground">
+            <data>
+                <position>100;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_3_10" meta-entity="ground">
+            <data>
+                <position>150;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_4_10" meta-entity="ground">
+            <data>
+                <position>200;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_5_10" meta-entity="ground">
+            <data>
+                <position>250;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_6_10" meta-entity="ground">
+            <data>
+                <position>300;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_7_10" meta-entity="ground">
+            <data>
+                <position>350;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_8_10" meta-entity="ground">
+            <data>
+                <position>400;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_9_10" meta-entity="ground">
+            <data>
+                <position>450;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_10_10" meta-entity="ground">
+            <data>
+                <position>500;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_11_10" meta-entity="ground">
+            <data>
+                <position>550;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_12_10" meta-entity="ground">
+            <data>
+                <position>600;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_13_10" meta-entity="ground">
+            <data>
+                <position>650;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_14_10" meta-entity="ground">
+            <data>
+                <position>700;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_15_10" meta-entity="ground">
+            <data>
+                <position>750;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_16_10" meta-entity="ground">
+            <data>
+                <position>800;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_17_10" meta-entity="ground">
+            <data>
+                <position>850;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_18_10" meta-entity="ground">
+            <data>
+                <position>900;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_19_10" meta-entity="ground">
+            <data>
+                <position>950;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_20_10" meta-entity="ground">
+            <data>
+                <position>1000;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_21_10" meta-entity="ground">
+            <data>
+                <position>1050;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_22_10" meta-entity="ground">
+            <data>
+                <position>1100;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_23_10" meta-entity="ground">
+            <data>
+                <position>1150;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_24_10" meta-entity="ground">
+            <data>
+                <position>1200;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_25_10" meta-entity="ground">
+            <data>
+                <position>1250;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_26_10" meta-entity="ground">
+            <data>
+                <position>1300;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_27_10" meta-entity="ground">
+            <data>
+                <position>1350;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_28_10" meta-entity="ground">
+            <data>
+                <position>1400;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_29_10" meta-entity="ground">
+            <data>
+                <position>1450;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_30_10" meta-entity="ground">
+            <data>
+                <position>1500;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_31_10" meta-entity="ground">
+            <data>
+                <position>1550;500</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_0_11" meta-entity="ground_earth">
+            <data>
+                <position>0;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_1_11" meta-entity="ground_earth">
+            <data>
+                <position>50;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_2_11" meta-entity="ground_earth">
+            <data>
+                <position>100;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_3_11" meta-entity="ground_earth">
+            <data>
+                <position>150;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_4_11" meta-entity="ground_earth">
+            <data>
+                <position>200;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_5_11" meta-entity="ground_earth">
+            <data>
+                <position>250;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_6_11" meta-entity="ground_earth">
+            <data>
+                <position>300;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_7_11" meta-entity="ground_earth">
+            <data>
+                <position>350;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_8_11" meta-entity="ground_earth">
+            <data>
+                <position>400;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_9_11" meta-entity="ground_earth">
+            <data>
+                <position>450;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_10_11" meta-entity="ground_earth">
+            <data>
+                <position>500;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_11_11" meta-entity="ground_earth">
+            <data>
+                <position>550;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_12_11" meta-entity="ground_earth">
+            <data>
+                <position>600;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_13_11" meta-entity="ground_earth">
+            <data>
+                <position>650;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_14_11" meta-entity="ground_earth">
+            <data>
+                <position>700;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_15_11" meta-entity="ground_earth">
+            <data>
+                <position>750;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_16_11" meta-entity="ground_earth">
+            <data>
+                <position>800;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_17_11" meta-entity="ground_earth">
+            <data>
+                <position>850;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_18_11" meta-entity="ground_earth">
+            <data>
+                <position>900;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_19_11" meta-entity="ground_earth">
+            <data>
+                <position>950;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_20_11" meta-entity="ground_earth">
+            <data>
+                <position>1000;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_21_11" meta-entity="ground_earth">
+            <data>
+                <position>1050;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_22_11" meta-entity="ground_earth">
+            <data>
+                <position>1100;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_23_11" meta-entity="ground_earth">
+            <data>
+                <position>1150;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_24_11" meta-entity="ground_earth">
+            <data>
+                <position>1200;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_25_11" meta-entity="ground_earth">
+            <data>
+                <position>1250;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_26_11" meta-entity="ground_earth">
+            <data>
+                <position>1300;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_27_11" meta-entity="ground_earth">
+            <data>
+                <position>1350;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_28_11" meta-entity="ground_earth">
+            <data>
+                <position>1400;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_29_11" meta-entity="ground_earth">
+            <data>
+                <position>1450;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_30_11" meta-entity="ground_earth">
+            <data>
+                <position>1500;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
+        <entity name="ground_earth_31_11" meta-entity="ground_earth">
+            <data>
+                <position>1550;550</position>
+                <size>50;50</size>
+                <type>1</type>
+            </data>
+            <logic/>
+        </entity>
     </entities>
 </map>

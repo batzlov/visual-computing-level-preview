@@ -236,7 +236,15 @@ class LevelGenerator {
         }
 
         const xmlString = js2xml(
-            { map: map },
+            { 
+                map: {
+                    height: map.height,
+                    width: map.width,
+                    entities: {
+                        entity: map.entities,
+                    },
+                } 
+            },
             {
                 compact: true,
                 ignoreComment: true,
