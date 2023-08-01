@@ -23,7 +23,7 @@
     height: 600px;
     background: url(/assets/background.png);
     background-position: center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .block-preview {

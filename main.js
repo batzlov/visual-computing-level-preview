@@ -236,14 +236,14 @@ class LevelGenerator {
         }
 
         const xmlString = js2xml(
-            { 
+            {
                 map: {
                     height: map.height,
                     width: map.width,
                     entities: {
                         entity: map.entities,
                     },
-                } 
+                },
             },
             {
                 compact: true,
@@ -273,6 +273,12 @@ document.addEventListener("DOMContentLoaded", () => {
         });
 
         levelGenerator.matrix = level.matrix;
+        levelGenerator.matrixCols = level.matrix.length;
+        levelGenerator.matrixRows = level.matrix[0].length;
+
+        levelGenerator.canvas.style.height = `${level.matrix.length * 50}px`;
+        levelGenerator.canvas.style.width = `${level.matrix[0].length * 50}px`;
+
         levelGenerator.render();
     });
 
